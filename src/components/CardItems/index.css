@@ -1,0 +1,172 @@
+.list {
+  list-style-type: none;
+  margin: 0px;
+  width: 100%;
+  height: 73vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.rupee-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 8vh;
+  /* border: 1px solid blue; */
+}
+.rupee {
+  font-size: 250%;
+}
+.amount {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 250%;
+  color: #000000;
+}
+.inr {
+  font-weight: bold;
+  font-size: 80%;
+  padding-left: 1%;
+  font-family: 'roboto';
+}
+.per-month {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffff;
+  width: 100%;
+  height: 8vh;
+  border: 3px solid #d4f8ff;
+}
+.r {
+  font-size: 70%;
+  padding: 0.1%;
+}
+.get-button {
+  border-width: 0px;
+  width: 100%;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'roboto';
+  font-size: 100%;
+  background-color: transparent;
+}
+.included-container {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid blue; */
+  height: 25vh;
+  justify-content: space-evenly;
+}
+.included-heading {
+  color: #000000;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 100%;
+}
+.mark {
+  color: aqua;
+  font-size: 150%;
+  margin-right: 2%;
+}
+.below {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.below-para {
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 60%;
+  color: #000000;
+}
+
+.last-button {
+  background-color: #000000;
+  border-radius: 20px;
+  border-width: 0px;
+  width: 60%;
+  height: 5vh;
+  color: white;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 100%;
+}
+@media screen and (max-width: 576px) {
+  .web {
+    display: none;
+  }
+  .main-heading {
+    display: none;
+  }
+}
+@media screen and (min-width: 577px) {
+  .web {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    padding-left: 5%;
+  }
+  .web-heading {
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 80%;
+    color: #000000;
+  }
+  .web-text {
+    font-family: 'roboto';
+    font-weight: normal;
+    font-size: 70%;
+    color: #000000;
+  }
+  .list {
+    width: 30%;
+    box-shadow: 0px 0px 1px 0px;
+    border-radius: 2%;
+    background-color: white;
+  }
+  .main-heading {
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 100%;
+    color: #000000;
+    padding-left: 5%;
+  }
+  .last-button {
+    margin-left: 5%;
+    margin-bottom: 3%;
+  }
+  .included-container {
+    padding-left: 5%;
+  }
+  .rupee-container {
+    padding-left: 5%;
+  }
+  .subbareddy {
+    border: 1px solid aqua;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 900px) {
+  .rupee {
+    font-size: 150%;
+  }
+  .amount {
+    font-size: 150%;
+  }
+  .inr {
+    font-size: 50%;
+  }
+  .get-button {
+    font-size: 60%;
+  }
+  .r {
+    font-size: 60%;
+  }
+  .included-heading {
+    font-size: 60%;
+  }
+}

@@ -1,0 +1,140 @@
+.head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  height: 12vh;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20%;
+  /* border: 1px solid red; */
+}
+.company-name {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 80%;
+  font-style: italic;
+}
+@media screen and (min-width: 577px) {
+  .subbu {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    /* border: 1px solid pink; */
+  }
+  .head-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .logo-container {
+    justify-content: flex-start;
+    width: 10%;
+    /* border: 1px solid yellow; */
+  }
+  .image {
+    background-color: white;
+    width: 80%;
+  }
+  .company-name {
+    font-size: 80%;
+  }
+  .navbar-container {
+    display: none;
+  }
+  .login-container {
+    min-width: 25%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /* border: 1px solid red; */
+  }
+  .login {
+    color: #000000;
+    font-family: 'roboto';
+    font-weight: normal;
+    font-size: 100%;
+  }
+  .start-button {
+    width: 60%;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'roboto';
+    font-weight: 600;
+    border-width: 0px;
+    border-radius: 20px;
+    font-size: 80%;
+  }
+  .options-container {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blue; */
+    min-width: 60%;
+    justify-content: space-around;
+  }
+  .text {
+    color: #000000;
+    font-family: 'roboto';
+    font-weight: bold;
+  }
+  .text1 {
+    color: #000000;
+    font-family: 'roboto';
+    font-weight: bold;
+  }
+  .op {
+    border-width: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .options-container {
+    display: none;
+  }
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .login-container {
+    display: none;
+  }
+  .image {
+    background-color: white;
+    width: 70%;
+    height: 25%;
+  }
+  .popup {
+    box-sizing: border-box;
+    min-width: 100%;
+    min-height: 100%;
+
+    border: 2px solid gray;
+    background-color: pink;
+  }
+
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid green; */
+    width: 22%;
+  }
+  .anchor {
+    color: #000000;
+    font-family: 'roboto';
+    font-weight: normal;
+    font-size: 90%;
+  }
+  .hamburger-icon {
+    min-width: 35%;
+  }
+}

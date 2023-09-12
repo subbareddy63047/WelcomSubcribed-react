@@ -1,7 +1,7 @@
-import Welcome from './components/Welcome'
+import MainContainer from './components/MainContainer'
 
 import './App.css'
 
-const App = () => <Welcome />
+const App = () => <MainContainer />
 
 export default App

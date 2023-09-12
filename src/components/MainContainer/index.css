@@ -1,0 +1,87 @@
+@media screen and (max-width: 576px) {
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    border: 1px solid gray;
+  }
+  .button {
+    height: 100%;
+    width: 33.4%;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 90%;
+    border: 1px solid gray;
+    background-color: transparent;
+  }
+  .subba {
+    border-top-width: 2px;
+    border-top-color: aqua;
+    border-top-style: solid;
+  }
+  .pay-monthly-container {
+    display: none;
+  }
+  .webdesign {
+    display: none;
+  }
+}
+@media screen and (min-width: 577px) {
+  .main-container {
+    background-image: linear-gradient(
+      to right,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      white,
+      white,
+      #d2faf7
+    );
+  }
+  .buttons-container {
+    display: none;
+  }
+  .mobile {
+    display: none;
+  }
+  .month-button {
+    color: white;
+    background-color: #000000;
+    border-radius: 15px;
+    border-width: 0px;
+    padding: 3%;
+    font-family: 'roboto';
+    font-weight: normal;
+    font-size: 80%;
+  }
+  .normal-button {
+    border-width: 0px;
+    background-color: transparent;
+    font-family: 'roboto';
+    font-weight: normal;
+    font-size: 70%;
+  }
+  .pay-monthly-container {
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    padding: 0.5%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 30%;
+    border-radius: 20px;
+    border: 2px solid aqua;
+  }
+  .webdesign {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
